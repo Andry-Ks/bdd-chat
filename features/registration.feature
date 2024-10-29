@@ -32,6 +32,7 @@ Feature: User Registration
     - Should contain at least one uppercase letter, one lowercase letter
     - Cannot consist solely of letters or numbers
     - No spaces are allowed
+    - Can contain special characters (!@#$%^&*)
 
     Rule: Username Validation
     - May contain only letters (a-z, A-Z, а-я, А-Я), digits (0-9), special characters (._-)
